@@ -1,0 +1,553 @@
+body{
+	background-color: white;
+}
+
+#header1 {
+	width: 100%;
+	height: 40px;
+	margin-top: -70px;
+}
+
+#header1 h1{
+	text-align: center;
+	font-family: monospace;
+  text-decoration: none;
+}
+
+#article1 {
+	width: 60%;
+	height: 600px;
+	margin-top: 20px;
+	border-right-style: solid;
+	border-right-color: black;
+	float: left;
+}
+
+#article1 img{
+	margin-top: 20px;
+	margin-left: 265px;
+	padding-bottom: -40px;
+}
+
+#article1 h1{
+	font-family: monospace;
+	margin-top: 10px;
+}
+
+#article1 p{
+	margin-top: -90px;
+	margin-left: 30px;
+	margin-right: 40px;
+	font-family: monospace;
+}
+
+#aside1 {
+	width: 38%;
+	height: 550px;
+	float: right;
+	margin: 10px;
+	margin-top: 20px;
+}
+
+body {
+  font-family: monospace;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-family: monospace;
+  color: black;
+  margin: 100px 0;
+}
+
+#textedu h3{
+	text-align: center;
+
+}
+
+.box {
+  width: 25%;
+  margin: 0 auto;
+  padding: 9px;
+  border: 10px solid #fff;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.box a{
+	background-color: black;
+}
+
+.button {
+  font-size: 8px;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid gray;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: gray;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 2s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: monospace;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: orange;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+#textexp h3{
+	text-align: center;
+
+}
+
+.boxexp {
+  width: 25%;
+  margin: 0 auto;
+  padding: 9px;
+  border: 10px solid #fff;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.boxexp a{
+	background-color: black;
+}
+
+.buttonexp {
+  font-size: 8px;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid gray;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.buttonexp:hover {
+  background: gray;
+}
+
+.overlayexp {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlayexp:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popupexp {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 2s ease-in-out;
+}
+
+.popupexp h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: monospace;
+}
+.popupexp .closeexp {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popupexp .closeexp:hover {
+  color: orange;
+}
+.popupexp .contentexp {
+  max-height: 30%;
+  overflow: auto;
+}
+
+#textorg h3{
+	text-align: center;
+
+}
+
+.boxorg {
+  width: 25%;
+  margin: 0 auto;
+  padding: 9px;
+  border: 10px solid #fff;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.boxorg a{
+	background-color: black;
+}
+
+.buttonorg {
+  font-size: 8px;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid gray;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.buttonorg:hover {
+  background: gray;
+}
+
+.overlayorg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlayorg:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popuporg {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 2s ease-in-out;
+}
+
+.popuporg h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: monospace;
+}
+.popuporg .closeorg {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popuporg .closeorg:hover {
+  color: orange;
+}
+.popuporg .contentorg {
+  max-height: 30%;
+  overflow: auto;
+}
+
+#textcom h3{
+	text-align: center;
+
+}
+
+.boxcom {
+  width: 25%;
+  margin: 0 auto;
+  padding: 9px;
+  border: 10px solid #fff;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.boxcom a{
+	background-color: black;
+}
+
+.buttoncom {
+  font-size: 8px;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid gray;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.buttoncom:hover {
+  background: gray;
+}
+
+.overlaycom {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlaycom:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popupcom {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 2s ease-in-out;
+}
+
+.popupcom h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: monospace;
+}
+.popupcom .closecom {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popupcom .closecom:hover {
+  color: orange;
+}
+.popupcom .contentcom {
+  max-height: 30%;
+  overflow: auto;
+}
+
+#textpro h3{
+	text-align: center;
+
+}
+
+.boxpro {
+  width: 25%;
+  margin: 0 auto;
+  padding: 9px;
+  border: 10px solid #fff;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.boxpro a{
+	background-color: black;
+}
+
+.buttonpro {
+  font-size: 8px;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid gray;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.buttonpro:hover {
+  background: gray;
+}
+
+.overlaypro {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlaypro:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popuppro {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 2s ease-in-out;
+}
+
+.popuppro h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: monospace;
+}
+.popuppro .closepro {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popuppro .closepro:hover {
+  color: orange;
+}
+.popuppro .contentpro {
+  max-height: 30%;
+  overflow: auto;
+}
+
+#textper h3{
+	text-align: center;
+
+}
+
+.boxper {
+  width: 25%;
+  margin: 0 auto;
+  padding: 9px;
+  border: 10px solid #fff;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.boxper a{
+	background-color: black;
+}
+
+.buttonper {
+  font-size: 8px;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid gray;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.buttonper:hover {
+  background: gray;
+}
+
+.overlayper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlayper:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popupper {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 2s ease-in-out;
+}
+
+.popupper h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: monospace;
+}
+.popupper .closeper {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popupper .closeper:hover {
+  color: orange;
+}
+.popupper .contentper {
+  max-height: 30%;
+  overflow: auto;
+}
+
+#footer1{
+	width: 100%;
+	height: 10px;
+	margin-top: 650px;
+}
+
+#footer1 h6{
+	text-align: center;
+	font-family: monospace;
+}

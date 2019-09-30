@@ -1,0 +1,287 @@
+body {
+  font-family: monospace;
+  background-size: cover;
+}
+
+#header2 {
+	width: 100%;
+	height: 40px;
+}
+
+#header2 h1{
+	text-align: center;
+	color: black;
+}
+
+#article2 {
+	width: 100%;
+	height: 500px;
+	margin-top: 100px;
+}
+
+#article2 ul{
+	list-style-type: none;
+	text-align: center;
+}
+
+#article2 li{
+	display: inline-block;
+	list-style-type: none;
+}
+
+h1{
+	text-align: center;
+}
+
+#textmail h3{
+	text-align: center;
+}
+
+.boxmail {
+  width: 25%;
+  margin: 0 auto;
+  padding: 9px;
+  border: 10px solid #fff;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.boxmail a{
+	background-color: black;
+}
+
+.buttonmail {
+  font-size: 8px;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid gray;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.buttonmail:hover {
+  background: gray;
+}
+
+.overlaymail {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlaymail:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popupmail {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 2s ease-in-out;
+}
+
+.popupmail h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: monospace;
+}
+.popupmail .closemail {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popupmail .closemail:hover {
+  color: orange;
+}
+.popupmail .contentmail {
+  max-height: 30%;
+  overflow: auto;
+}
+
+ul{
+	display: inline-grid;
+}
+
+#textsoc h3{
+	text-align: center;
+
+}
+
+.boxsoc {
+  width: 25%;
+  margin: 0 auto;
+  padding: 9px;
+  border: 10px solid #fff;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.boxsoc a{
+	background-color: black;
+}
+
+.buttonsoc {
+  font-size: 8px;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid gray;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.buttonsoc:hover {
+  background: gray;
+}
+
+.overlaysoc {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlaysoc:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popupsoc {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 2s ease-in-out;
+}
+
+.popupsoc h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: monospace;
+}
+.popupsoc .closesoc {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popupsoc .closesoc:hover {
+  color: orange;
+}
+.popupsoc .contentsoc {
+  max-height: 30%;
+  overflow: auto;
+}
+
+#textcon h3{
+	text-align: center;
+
+}
+
+.boxcon {
+  width: 25%;
+  margin: 0 auto;
+  padding: 9px;
+  border: 10px solid #fff;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.boxcon a{
+	background-color: black;
+}
+
+.buttoncon {
+  font-size: 8px;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid gray;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.buttoncon:hover {
+  background: gray;
+}
+
+.overlaycon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlaycon:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popupcon {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 2s ease-in-out;
+}
+
+.popupcon h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: monospace;
+}
+.popupcon .closecon {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popupcon .closecono:hover {
+  color: orange;
+}
+.popupcon .contentcon {
+  max-height: 30%;
+  overflow: auto;
+}
+
+#footer2{
+	width: 100%;
+	height: 10px;
+}
+
+#footer2 h6{
+	text-align: center;
+	font-family: monospace;
+}
